@@ -48,20 +48,19 @@ body>* {
     padding: 30px 0;
 }
 
-.logo {}
-
-.menu {}
-
 .banner {
     height: 200px;
 }
+
 .main {
     display: flex;
     flex: 1;
     overflow: hidden;
 }
 
-.main p {padding-bottom: 10px;}
+.main p {
+    padding-bottom: 10px;
+}
 
 
 .sideMenu {
@@ -69,4 +68,7 @@ body>* {
     width: 300px;
 }
 
-.text { padding: 30px 20px; overflow: auto;}
+.text {
+    padding: 30px 20px;
+    overflow: auto;
+}
