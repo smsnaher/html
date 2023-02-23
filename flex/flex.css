@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body>* {
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-container>div {
+    background-color: #fff;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo {}
+
+.menu {}
+
+.banner {
+    height: 200px;
+}
+.main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.main p {padding-bottom: 10px;}
+
+
+.sideMenu {
+    background-color: #ddd;
+    width: 300px;
+}
+
+.text { padding: 30px 20px; overflow: auto;}
